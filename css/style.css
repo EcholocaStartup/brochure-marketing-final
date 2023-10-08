@@ -181,9 +181,17 @@ body {
         width: 110px;
         height: 170px;
     }
+
+    .logo-title .col-9 {
+        width: 90%;
+    }
+
+    .logo-title .col-3 {
+        width: 10%;
+    }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:992px) {
     .logo-title .col-9 {
         width: 90%;
     }
